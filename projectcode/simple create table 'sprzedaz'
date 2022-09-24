@@ -1,0 +1,12 @@
+create table sprzedaz
+(
+id_trans int auto_increment,
+id_sprzedawca int (255),
+id_klient int (255),
+data_zakupu date,
+id_pojazd int(255),
+primary key (id_trans),
+foreign key (id_klient) references klienci(id_klient) on delete cascade,
+foreign key (id_sprzedawca) references sprzedawcy(id_sprzedawca) on delete cascade,
+foreign key (id_pojazd) references pojazdy(id_pojazd) on delete cascade
+);
