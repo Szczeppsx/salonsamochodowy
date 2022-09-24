@@ -1,0 +1,11 @@
+create table klienci
+(
+id_klient INT PRIMARY KEY auto_increment,
+imie varchar(255),
+nazwisko varchar(255),
+ulica varchar (255),
+kod_pocztowy varchar (255),
+miasto varchar(255),
+tel int(30),
+mail varchar(233)
+)
