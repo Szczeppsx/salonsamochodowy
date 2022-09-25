@@ -1,0 +1,10 @@
+--- Zestawienie liczby zakupionych przez klientów aut.
+
+select klienci.imie, klienci.nazwisko, count(sprzedaz.id_trans) as liczba_aut
+from
+klienci
+inner join
+sprzedaz
+on klienci.id_klient = sprzedaz.id_klient
+group by klienci.id_klient
+order by liczba_aut desc
