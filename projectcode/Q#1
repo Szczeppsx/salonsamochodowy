@@ -1,0 +1,10 @@
+--- Oferta mailingowa z zakupem opon po promocyjnej cenie dla pojazdów rocznik 2022.
+
+ select klienci.mail
+ from
+ klienci
+ inner join sprzedaz
+ on klienci.id_klient = sprzedaz.id_klient
+ inner join pojazdy
+ on pojazdy.id_pojazd = sprzedaz.id_pojazd
+ where rok = '2022' and mail is not null
