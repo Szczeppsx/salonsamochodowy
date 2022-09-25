@@ -1,0 +1,7 @@
+ select klienci.id_klient, klienci.imie, klienci.nazwisko, pojazdy.model, sprzedaz.data_zakupu
+ from
+ klienci left join sprzedaz
+ on klienci.id_klient = sprzedaz.id_klient
+ left join
+ pojazdy
+on sprzedaz.id_pojazd = pojazdy.id_pojazd
