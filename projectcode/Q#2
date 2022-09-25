@@ -1,3 +1,5 @@
+ --- Zestawienie klientów którzy dokonali zakupu pojazdu z wyszczególnieniem na datę, model oraz klientów, którzy nie dokonali do tej pory żadnego zakupu.
+ 
  select klienci.id_klient, klienci.imie, klienci.nazwisko, pojazdy.model, sprzedaz.data_zakupu
  from
  klienci left join sprzedaz
