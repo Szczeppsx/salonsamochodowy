@@ -1,0 +1,5 @@
+---Aktualizacja adresu e-mail u klienta.
+
+update klienci
+set mail = 'zof@test.pl'
+where id_klient = 7
