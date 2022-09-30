@@ -9,3 +9,4 @@ miasto varchar(255),
 tel int(30),
 mail varchar(233)
 )
+;
