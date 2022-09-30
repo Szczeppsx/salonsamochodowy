@@ -1,0 +1,4 @@
+insert into klienci
+(imie, nazwisko, ulica, kod_pocztowy, miasto, telefon, mail)
+values ('Dawid', 'Kowalski', 'Sympatyczna 1', '22-200', 'Lublin', '555555555', 'daw@test.pl')
+;
