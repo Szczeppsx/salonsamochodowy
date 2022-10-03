@@ -7,4 +7,4 @@
  on klienci.id_klient = sprzedaz.id_klient
  inner join pojazdy
  on pojazdy.id_pojazd = sprzedaz.id_pojazd
- where rok = '2022' and mail is not null
+ where rok = '2022' and mail is not null;
