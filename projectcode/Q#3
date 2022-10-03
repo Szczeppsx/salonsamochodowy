@@ -7,5 +7,5 @@ inner join
 sprzedaz
 on klienci.id_klient = sprzedaz.id_klient
 group by klienci.id_klient
-order by liczba_aut desc
-;
+order by liczba_aut desc;
+
