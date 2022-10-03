@@ -6,5 +6,5 @@
  on klienci.id_klient = sprzedaz.id_klient
  left join
  pojazdy
-on sprzedaz.id_pojazd = pojazdy.id_pojazd
-;
+on sprzedaz.id_pojazd = pojazdy.id_pojazd;
+
